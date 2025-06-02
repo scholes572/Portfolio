@@ -4,11 +4,13 @@
     box-sizing: "border-box";
     font-family: 'poppins', sans-serif;
 }
+
 body {
 
     background: #081b29;
     color: #ededed;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -22,6 +24,7 @@ body {
     z-index: 100;
 
 }
+
 .logo{
     position: relative;
     font-size: 25px;
@@ -29,6 +32,7 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
+
 .logo::before{
     content: '';
     position: absolute;
@@ -41,19 +45,28 @@ body {
     animation-delay: 0.4s;
    
 }
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:wrap;
+}
+
 .navbar a{
     font-size: 18px;
     color: #ededed;
     text-decoration: none;  
     font-weight: 500;
-    margin-left:35px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .navbar a:hover{
     color: #000;
     transition: 0.8s ease-in-out;
 }
+
 .navbar a.active{
     color: black; 
 }
@@ -71,12 +84,14 @@ body {
 .Home-content{
     max-width: 600px;
 } 
+
 .Home-content h1{
     position: relative;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
 }
+
 .Home-content h1::before{
     content: '';
     position: absolute;
@@ -86,8 +101,7 @@ body {
     height: 100%;
     background: black;
     animation: showRight 1s ease forwards;
-    animation-delay: 1s;
-   
+    animation-delay: 1s;  
 }
 
 .Home-content h3{
@@ -96,6 +110,7 @@ body {
     font-weight: 700;
     color: #00abf0;
 }
+
 .Home-content h3::before{
     content: '';
     position: absolute;
@@ -107,11 +122,13 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
 }
+
 .Home-content p{
     position: relative;
     font-size: 16px;
     margin: 20px 0 40px;
 }
+
 .Home-content p::before{
     content: '';
     position: absolute;
@@ -123,6 +140,7 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
 }
+
 .Home-content .btn-box {
     position: relative;
     display: flex;
@@ -130,6 +148,7 @@ body {
     height: 50px;
     justify-content: space-between;
 }
+
 .Home-content .btn-box::before{
     content: '';
     position: absolute;
@@ -141,7 +160,9 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
     z-index: 2;
+
 }
+
 .btn-box a{
     position: relative;
     display: inline-flex;
@@ -160,15 +181,19 @@ body {
     z-index: 1;
     overflow: hidden;
     transition: 0.5s;
+
 }
+
 .btn-box a:hover{
     color: #00abf0;
+
 }
 
 .btn-box a:nth-child(2){
     background: transparent;
     color: #00abf0;
 }
+
 .btn-box a:nth-child(2):hover{
     color: #081b29;
 }
@@ -191,10 +216,12 @@ body {
     transition: 0.5s;
 
 }
+
 .btn-box a:hover:before{
     width: 100%;
 
 }
+
 .home-sci{
     position: absolute;
     bottom: 40px;
@@ -202,6 +229,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .home-sci::before{
     content: '';
     position: absolute;
@@ -214,6 +242,7 @@ body {
     animation-delay: 1.9s;
     z-index: 2;
 }
+
 .home-sci a{
     position: relative;
     display: inline-flex;    
@@ -232,6 +261,7 @@ body {
     transition: 0.5s;
 
 }
+
 .home-sci a::before  {
     content: '';
     position: absolute;
@@ -248,9 +278,11 @@ body {
 .home-sci a:hover::before  {
         width: 100%;
 }
+
 .home-sci a:hover {
     color: #081b29;
 }
+
 .home-imgHover{
     position: absolute;
     top: 0;
@@ -264,10 +296,12 @@ body {
     pointer-events: none;
 
 }
+
 .home-imgHover:hover{
     background: #081b29;
     opacity: 0.8;
 }
+
 .home-imgHover::after{
     content: '';
     position: absolute;
@@ -293,5 +327,3 @@ body {
         pointer-events: auto;
     }
 }
-
-  
