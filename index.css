@@ -281,7 +281,7 @@ body {
 }
 
 .home-sci a:hover {
-    color: #081b29;
+    color: #000000;
 }
 
 .home-imgHover{
@@ -299,7 +299,7 @@ body {
 }
 
 .home-imgHover:hover{
-    background: #081b29;
+    background: #1c1e1f;
     opacity: 0.8;
 }
 
