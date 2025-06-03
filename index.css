@@ -290,7 +290,6 @@ body {
     right:0px;
     width: 1200px;
     height: 100%;
-    background: transparent;
     transition: 3s;
     animation: manipActiveHover .1s forwards;
     animation-delay: 4s;
@@ -299,7 +298,7 @@ body {
 }
 
 .home-imgHover:hover{
-    background: #1c1e1f;
+    background: #000000;
     opacity: 0.8;
 }
 
