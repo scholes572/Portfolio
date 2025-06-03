@@ -41,8 +41,8 @@ body {
     width: 100%;
     height: 100%;
     background: black;
-    animation: showRight 1s ease forwards;
-    animation-delay: 0.4s;
+    animation: showRight 4s ease forwards;
+    animation-delay: 0.1s;
    
 }
 
@@ -101,8 +101,8 @@ body {
     width: 100%;
     height: 100%;
     background: black;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1s;  
+    animation: showRight 9s ease forwards;
+    animation-delay: 3s;  
 }
 
 .Home-content h3{
@@ -120,8 +120,8 @@ body {
     width: 100%;
     height: 100%;
     background: black;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.3s;
+    animation: showRight 18s ease forwards;
+    animation-delay: 1.7s;
 }
 
 .Home-content p{
@@ -138,8 +138,8 @@ body {
     width: 100%;
     height: 100%;
     background: black;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.6s;
+    animation: showRight 20s ease forwards;
+    animation-delay: 3s;
 }
 
 .Home-content .btn-box {
@@ -310,7 +310,7 @@ body {
     width: 100%;
     height: 100%;
     background: black;
-    animation: showRight 1s ease forwards;
+    animation: showRight 9s ease forwards;
     animation-delay: 3s;
     z-index: 2;
 }
