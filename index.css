@@ -69,7 +69,8 @@ body {
 }
 
 .navbar a.active{
-    color: black; 
+    color: gold; 
+    font-weight: 600;
 }
 
 .Home{
@@ -83,7 +84,7 @@ body {
 }
  
 .Home-content{
-    max-width: 600px;
+    max-width: 500px;
 } 
 
 .Home-content h1{
